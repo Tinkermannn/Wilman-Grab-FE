@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar tipis dengan warna khas Grab */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track scrollbar (jalur) */
+::-webkit-scrollbar-track {
+  background: #f1f5f9; /* netral terang - mirip slate-100 */
+}
+
+/* Handle scrollbar (bagian yang bisa digeser) */
+::-webkit-scrollbar-thumb {
+  background: #22c55e; /* hijau khas Grab - Tailwind green-500 */
+  border-radius: 8px;
+}
+
+/* Handle saat hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #16a34a; /* sedikit lebih gelap dan tegas - green-600 */
+}
