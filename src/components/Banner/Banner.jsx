@@ -5,7 +5,7 @@ import { faWindows, faApple, faAndroid } from '@fortawesome/free-brands-svg-icon
 
 export default function Banner() {
   return (
-    <div className="w-full h-screen m-auto flex bg-green-950 shadow-inner -mt-10 flex-col">
+<div id="tentang-kami" className="w-full h-screen m-auto flex bg-green-950 shadow-inner -mt-10 flex-col">
       <div className='w-full h-[400px] px-20 flex items-center m-auto max-w-screen-2xl flex-row gap-0'>
         <div className='w-[40%] h-full flex items-center justify-center p-0 m-0'>
           <img src={Logo} className='scale-75' />

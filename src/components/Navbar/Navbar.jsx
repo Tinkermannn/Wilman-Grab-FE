@@ -25,14 +25,14 @@ export default function Navbar() {
     }, [controls]);
 
     const listStyle =
-        "text-white text-lg font-medium w-[15%] h-12 flex items-center justify-center rounded-md transition-all delay-75 cursor-pointer hover:bg-green-400/80 hover:scale-105 active:bg-green-500/80 focus:ring-white";
+        "text-white text-lg font-medium w-[20%] h-12 flex items-center justify-center rounded-md transition-all delay-75 cursor-pointer hover:bg-green-400/80 hover:scale-105 active:bg-green-500/80 focus:ring-white";
     const listStyle2 =
         "text-green-600 text-lg font-medium w-[10%] h-12 flex items-center justify-center rounded-md transition-all delay-75 cursor-pointer hover:bg-green-400/80 hover:scale-105 active:bg-green-500/80 focus:ring-green-600";
 
     const menu = [
-        { text: "OS", path: "/os" },
-        { text: "SBD", path: "/sbd" },
-        { text: "DMJ", path: "/dmj" },
+        { text: "Tentang", path: "#tentang-kami" },
+        { text: "Services", path: "#service" },
+        { text: "Home", path: "/home" },
     ];
 
     return (
@@ -50,7 +50,7 @@ export default function Navbar() {
                             onClick={() => navigate("/")}
                         />
                     </div>
-                    <div className="w-full h-full flex select-none flex-row px-5 justify-between items-center">
+                    <div className="w-full h-full flex select-none flex-row justify-between items-center">
                         <div className="w-full h-full">
                             <ul className=" text-white text-lg font-bold"></ul>
                         </div>
