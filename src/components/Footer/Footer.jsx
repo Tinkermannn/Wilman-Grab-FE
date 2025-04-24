@@ -5,8 +5,8 @@ import Logo from '../../assets/grab.svg';
 export default function Footer() {
     return (
         <>
-<div className="w-full h-auto bg-gradient-to-b from-green-800 via-green-600 to-green-500 shadow-inner border-none">
-    <div className="w-full h-full px-5 py-8 sm:px-4 sm:py-6 md:px-10 md:py-8 max-w-screen-2xl m-auto flex flex-col sm:flex-col md:flex-row justify-between gap-8">
+<div className="w-full h-auto bg-gradient-to-b from-green-800 via-green-600 to-green-500 border-none ">
+    <div className="w-full h-full px-5 py-8 sm:px-4 sm:py-6 md:px-10 md:py-8 max-w-screen-2xl m-auto flex flex-col sm:flex-col md:flex-row justify-between gap-8 lg:px-20">
         {/* Bagian Kiri */}
         <div className="w-full md:w-[45%] h-full flex flex-col gap-3">
             <div className="w-full h-auto flex flex-row gap-4 items-center">
@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
     </div>
 
-    <div className="w-full flex bg-gradient-to-b from-green-500 to-green-700 py-3 px-5 sm:px-4 md:px-20">
+    <div className="w-full flex bg-gradient-to-b from-green-500 to-green-600 py-3 px-5 sm:px-4 md:px-20">
         <div className="w-full flex justify-center max-w-screen-2xl m-auto">
             <p className="font-normal text-white text-sm sm:text-xs">© 2025</p>
         </div>
