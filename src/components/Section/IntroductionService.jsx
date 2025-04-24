@@ -25,7 +25,7 @@ export default function IntroductionService() {
           </div>
         </div>
 
-        <div className='w-full h-36 px-4 sm:px-10 md:px-20 flex m-auto max-w-screen-2xl overflow-x-auto'>
+        <div className='w-full h-36 px-4 sm:px-10 md:px-20 flex m-auto max-w-screen-2xl overflow-x-auto no-scrollbar'>
           <div className='w-fit h-full flex items-center flex-row gap-2 sm:gap-3 border-b-2 border-gray-500 pb-4'>
             {items.map((label) => (
               <div

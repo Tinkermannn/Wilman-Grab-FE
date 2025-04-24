@@ -8,8 +8,8 @@ export default function Introduction() {
         <div className='w-full md:w-[40%] h-full flex items-center justify-center p-0 m-0'>
           <img src={Pics} className='w-full max-w-md scale-95 rounded-xl' alt="Introduction" />
         </div>
-        <div className='w-full md:w-[60%] h-full flex flex-col justify-center'>
-          <p className='text-green-900/90 text-2xl sm:text-3xl md:text-4xl lg:text-[3rem] font-semibold underline-offset-4 mb-2 font-poppins'>
+        <div className='w-full md:w-[60%] h-full flex flex-col justify-center items-center lg:gap-5'>
+          <p className='text-green-900/90 text-2xl sm:text-3xl md:text-4xl lg:text-[3rem] font-semibold underline-offset-4 mb-2 font-poppins mt'>
             Put Yourself in the picture
           </p>
           <p className='text-green-800 text-sm sm:text-base md:text-lg font-light leading-relaxed tracking-wide text-justify'>

@@ -22,3 +22,15 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #16a34a; /* sedikit lebih gelap dan tegas - green-600 */
 }
+
+@layer utilities {
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}

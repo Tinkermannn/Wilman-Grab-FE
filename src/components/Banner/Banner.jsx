@@ -10,7 +10,7 @@ export default function Banner() {
         <div className='w-full md:w-[40%] h-full flex items-center justify-center p-0 m-0'>
           <img src={Logo} className='lg:scale-75 md:scale-75' alt="Grab Logo" />
         </div>
-        <div className='w-full md:w-[60%] h-full flex flex-col justify-center'>
+        <div className='w-full md:w-[60%] h-full flex flex-col justify-center lg:items-start items-center mt-10'>
           <p className='text-white text-2xl sm:text-3xl md:text-[3rem] font-semibold underline-offset-4 mb-4 font-poppins'>
             Tentang Kami
           </p>
