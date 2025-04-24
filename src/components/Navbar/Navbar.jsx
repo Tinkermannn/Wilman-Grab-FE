@@ -74,7 +74,7 @@ export default function Navbar() {
             </motion.div>
 
             {/* Mobile & Tablet Navbar (sm & md) with Hamburger */}
-            <div className="fixed top-0 w-full flex lg:hidden justify-between items-center px-4 py-3 bg-green-600 z-20">
+            <div className="fixed top-0 w-full flex lg:hidden justify-between items-center px-4 py-3 bg-green-600 z-30">
                 <img src={Logo} className="h-8 w-auto cursor-pointer" onClick={() => navigate("/")} />
                 <button onClick={() => setMenuOpen(prev => !prev)} className="text-white focus:outline-none">
                     {menuOpen ? <X size={24} /> : <Menu size={24} />}
